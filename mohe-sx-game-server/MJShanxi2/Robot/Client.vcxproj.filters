@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{b450313a-8d1e-4a43-83c5-a33566aa6aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{814e8e05-220d-4273-bc13-9d12d1a26d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\ClientManager">
+      <UniqueIdentifier>{5288c0cc-1347-43c6-adbd-2deec6eb5014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Net">
+      <UniqueIdentifier>{ab833572-ea0c-479d-843a-f03085a8bc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Default">
+      <UniqueIdentifier>{7d3a5387-c630-4cf5-a742-40651828db33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\PublicFunc">
+      <UniqueIdentifier>{35358c1e-f91f-4c68-9338-efa40f12c883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Config">
+      <UniqueIdentifier>{5d1c474d-892e-46c2-85e3-e40aad108c01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>CODE\ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Net_Server_Inside.h">
+      <Filter>CODE\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Default.h">
+      <Filter>CODE\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Public_func.h">
+      <Filter>CODE\PublicFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>CODE\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>CODE</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>CODE\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Net_Server_Inside.cpp">
+      <Filter>CODE\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager_Handle.cpp">
+      <Filter>CODE\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Default.cpp">
+      <Filter>CODE\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager_Op.cpp">
+      <Filter>CODE\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Public_func.cpp">
+      <Filter>CODE\PublicFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>CODE\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

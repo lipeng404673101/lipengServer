@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Doudizhu">
+      <UniqueIdentifier>{e8cf4dca-d5ec-4a6b-a971-cbdbd7942d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="newNiuNiu">
+      <UniqueIdentifier>{25acfa08-a480-4020-a81c-bde7fb603a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheXuan">
+      <UniqueIdentifier>{8a634761-4782-462f-ada7-254f152a9e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YingSanZhang">
+      <UniqueIdentifier>{e5d7e0ae-6262-4777-b98f-ef038dd96103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NiuNiu">
+      <UniqueIdentifier>{f72e5fe4-395d-44f1-9354-8072c0df8e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SanDaEr">
+      <UniqueIdentifier>{18bdf366-5afd-4a67-a515-a81e5c09b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SanDaYi">
+      <UniqueIdentifier>{d562a67d-4129-4ab3-9492-4e9d1017980e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShuangSheng">
+      <UniqueIdentifier>{ca3b53f4-038f-4f62-b058-33d4c8d8bc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TuiTongZi">
+      <UniqueIdentifier>{13cd749d-5039-4920-b8c7-4299f44b3d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WuRenBaiFen">
+      <UniqueIdentifier>{7b4f0a37-e76f-42be-8210-566f2cb4ead4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConstants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Desk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandlerBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsideNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicToggles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomVip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mhgamedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LMsgPoker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="doudizhu\CMD_Game.h">
+      <Filter>Doudizhu</Filter>
+    </ClInclude>
+    <ClInclude Include="doudizhu\CMD_Game_Linfen.h">
+      <Filter>Doudizhu</Filter>
+    </ClInclude>
+    <ClInclude Include="doudizhu\GameLogicLaizi.h">
+      <Filter>Doudizhu</Filter>
+    </ClInclude>
+    <ClInclude Include="doudizhu\GameLogicLinfen.h">
+      <Filter>Doudizhu</Filter>
+    </ClInclude>
+    <ClInclude Include="doudizhu\GameLogicClassical.h">
+      <Filter>Doudizhu</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="newNiuNiu\newNiuNiuMsg.h">
+      <Filter>newNiuNiu</Filter>
+    </ClInclude>
+    <ClInclude Include="CheXuanGameLogic.h">
+      <Filter>CheXuan</Filter>
+    </ClInclude>
+    <ClInclude Include="CheXuan\CheXuanMsg.h">
+      <Filter>CheXuan</Filter>
+    </ClInclude>
+    <ClInclude Include="newNiuNiu\NiuNiu_NewGameLogic.h">
+      <Filter>newNiuNiu</Filter>
+    </ClInclude>
+    <ClInclude Include="YingSanZhang\YingSanZhangGameLogic.h">
+      <Filter>YingSanZhang</Filter>
+    </ClInclude>
+    <ClInclude Include="NiuNiu\NiuNiuGameLogic.h">
+      <Filter>NiuNiu</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuangSheng\ShuangShengGameLogic.h">
+      <Filter>ShuangSheng</Filter>
+    </ClInclude>
+    <ClInclude Include="SanDaYi\SanDaYiGameLogic.h">
+      <Filter>SanDaYi</Filter>
+    </ClInclude>
+    <ClInclude Include="SanDaEr\SanDaErGameLogic.h">
+      <Filter>SanDaEr</Filter>
+    </ClInclude>
+    <ClInclude Include="WuRenBaiFen\WuRenBaiFenGameLogic.h">
+      <Filter>WuRenBaiFen</Filter>
+    </ClInclude>
+    <ClInclude Include="TuiTongZi\TuiTongZiGameLogic.h">
+      <Filter>TuiTongZi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActiveManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Desk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InsideNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomVip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="doudizhu\DoudizhuGameHandler.cpp">
+      <Filter>Doudizhu</Filter>
+    </ClCompile>
+    <ClCompile Include="doudizhu\GameLogicLaizi.cpp">
+      <Filter>Doudizhu</Filter>
+    </ClCompile>
+    <ClCompile Include="doudizhu\GameLogicLinfen.cpp">
+      <Filter>Doudizhu</Filter>
+    </ClCompile>
+    <ClCompile Include="doudizhu\GameLogicClassical.cpp">
+      <Filter>Doudizhu</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheXuanGameHandler.cpp">
+      <Filter>CheXuan</Filter>
+    </ClCompile>
+    <ClCompile Include="CheXuanGameLogic.cpp">
+      <Filter>CheXuan</Filter>
+    </ClCompile>
+    <ClCompile Include="newNiuNiu\NiuNiu_NewGameHandler.cpp">
+      <Filter>newNiuNiu</Filter>
+    </ClCompile>
+    <ClCompile Include="newNiuNiu\NiuNiu_NewGameLogic.cpp">
+      <Filter>newNiuNiu</Filter>
+    </ClCompile>
+    <ClCompile Include="YingSanZhang\YingSanZhangGameHandler.cpp">
+      <Filter>YingSanZhang</Filter>
+    </ClCompile>
+    <ClCompile Include="YingSanZhang\YingSanZhangGameLogic.cpp">
+      <Filter>YingSanZhang</Filter>
+    </ClCompile>
+    <ClCompile Include="NiuNiu\NiuNiuGameHandler.cpp">
+      <Filter>NiuNiu</Filter>
+    </ClCompile>
+    <ClCompile Include="NiuNiu\NiuNiuGameLogic.cpp">
+      <Filter>NiuNiu</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuangSheng\ShuangShengGameHandler.cpp">
+      <Filter>ShuangSheng</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuangSheng\ShuangShengGameLogic.cpp">
+      <Filter>ShuangSheng</Filter>
+    </ClCompile>
+    <ClCompile Include="SanDaYi\SanDaYiGameHandler.cpp">
+      <Filter>SanDaYi</Filter>
+    </ClCompile>
+    <ClCompile Include="SanDaYi\SanDaYiGameLogic.cpp">
+      <Filter>SanDaYi</Filter>
+    </ClCompile>
+    <ClCompile Include="SanDaEr\SanDaErGameHandler.cpp">
+      <Filter>SanDaEr</Filter>
+    </ClCompile>
+    <ClCompile Include="SanDaEr\SanDaErGameLogic.cpp">
+      <Filter>SanDaEr</Filter>
+    </ClCompile>
+    <ClCompile Include="WuRenBaiFen\WuRenBaiFenGameHandler.cpp">
+      <Filter>WuRenBaiFen</Filter>
+    </ClCompile>
+    <ClCompile Include="WuRenBaiFen\WuRenBaiFenGameLogic.cpp">
+      <Filter>WuRenBaiFen</Filter>
+    </ClCompile>
+    <ClCompile Include="TuiTongZi\TuiTongZiGameHandler.cpp">
+      <Filter>TuiTongZi</Filter>
+    </ClCompile>
+    <ClCompile Include="TuiTongZi\TuiTongZiGameLogic.cpp">
+      <Filter>TuiTongZi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

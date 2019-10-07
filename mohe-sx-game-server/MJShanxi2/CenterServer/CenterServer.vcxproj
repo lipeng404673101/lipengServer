@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5534D05E-13D8-4D4C-BCE4-BC7FD3782D6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CenterServer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;BUILDING_LIBCURL;HTTP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../include;../../include/mysql;../../include/msgpack;../../include/lbasesx;../mhmessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib/boost;../../lib/mysql;../../lib14/jsoncpp;../../lib/libcurl;../../lib14/openssl;../../lib/msgpack;../../lib14/lbasesx;../Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mhmessage.lib;LBaseSX.lib;libmysql.lib;msgpackd.lib;libjsond.lib;libcurl_imp.lib;libeay32.lib;ssleay32.lib;ws2_32.lib;wldap32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if not exist "$(OutDir)libcurl.dll" copy /y  "..\..\lib\libcurl\libcurl.dll" "$(OutDir)"
+if not exist "$(OutDir)libmysql.dll" copy /y  "..\..\lib\mysql\libmysql.dll" "$(OutDir)"
+if not exist "$(OutDir)lbasesx.dll" copy /y  "..\..\lib14\lbasesx\lbasesx.dll" "$(OutDir)"
+if not exist "$(OutDir)mhkk.dll" copy /y  "..\..\lib14\lbasesx\mhkk.dll" "$(OutDir)"
+if not exist "$(OutDir)config.ini" copy /y  "..\..\lib14\lbasesx\config.ini" "$(OutDir)"
+if not exist "$(OutDir)kill.bat" copy /y  "$(ProjectDir)kill.bat" "$(OutDir)"
+if not exist "$(OutDir)restart.bat" copy /y  "$(ProjectDir)restart.bat" "$(OutDir)"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;BUILDING_LIBCURL;HTTP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../include/msgpack;../../include/mysql;../../include;../../include/lbasesx2;../mhmessage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4003;4018;4251;4819</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>LBaseSX.lib;libmysql.lib;msgpack.lib;libcurl.lib;libeay32.lib;ssleay32.lib;ws2_32.lib;wldap32.lib;winmm.lib;mhjsonlib.lib;mhmessage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../lib/boost;../../lib/mysql;../../lib/jsoncpp;../../lib14/libcurl;../../lib/msgpack;../../lib14/openssl;../../lib14/lbasesx2;../release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy /y  "..\..\lib\libcurl\libcurl.dll" "$(OutDir)"
+copy /y  "..\..\lib\mysql\libmysql.dll" "$(OutDir)"
+copy /y  "..\..\lib14\lbasesx2\lbasesx.dll" "$(OutDir)"
+copy /y  "..\..\lib14\lbasesx2\mhkk.dll" "$(OutDir)"
+copy /y  "..\..\lib14\lbasesx2\config.ini" "$(OutDir)"
+copy /y  "$(ProjectDir)kill.bat" "$(OutDir)"
+copy /y  "$(ProjectDir)restart.bat" "$(OutDir)"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="clubManager.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="mjConfig.cpp" />
+    <ClCompile Include="NewUserVerify.cpp" />
+    <ClCompile Include="NewUserVerifyManager.cpp" />
+    <ClCompile Include="DbServer.cpp" />
+    <ClCompile Include="DbServerManager.cpp" />
+    <ClCompile Include="DUser.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
+    <ClCompile Include="InsideNet.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SpecActive.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="UserMessage.cpp" />
+    <ClCompile Include="UserMessageMsg.cpp" />
+    <ClCompile Include="Work.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clubManager.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="mjConfig.h" />
+    <ClInclude Include="NewUserVerify.h" />
+    <ClInclude Include="NewUserVerifyManager.h" />
+    <ClInclude Include="DbServer.h" />
+    <ClInclude Include="DbServerManager.h" />
+    <ClInclude Include="DUser.h" />
+    <ClInclude Include="HttpRequest.h" />
+    <ClInclude Include="InsideNet.h" />
+    <ClInclude Include="SpecActive.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="UserMessage.h" />
+    <ClInclude Include="UserMessageMsg.h" />
+    <ClInclude Include="Work.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

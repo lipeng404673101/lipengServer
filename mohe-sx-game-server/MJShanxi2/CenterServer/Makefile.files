@@ -1,0 +1,34 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/InsideNet.o \
+          ./libs/main.o \
+          ./libs/UserMessageMsg.o \
+          ./libs/Config.o \
+          ./libs/DbServerManager.o \
+          ./libs/DbServer.o \
+          ./libs/NewUserVerify.o \
+          ./libs/UserMessage.o \
+          ./libs/HttpRequest.o \
+          ./libs/NewUserVerifyManager.o \
+          ./libs/DUser.o \
+          ./libs/UserManager.o \
+          ./libs/Work.o \
+
+
+
+MODULE_SRC =     \
+          ./InsideNet.o \
+          ./main.o \
+          ./UserMessageMsg.o \
+          ./Config.o \
+          ./DbServerManager.o \
+          ./DbServer.o \
+          ./NewUserVerify.o \
+          ./UserMessage.o \
+          ./HttpRequest.o \
+          ./NewUserVerifyManager.o \
+          ./DUser.o \
+          ./UserManager.o \
+          ./Work.o \

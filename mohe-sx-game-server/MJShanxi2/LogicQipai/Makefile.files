@@ -1,0 +1,56 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/Robot.o \
+          ./libs/RobotManager.o \
+          ./libs/Cardsc.o \
+          ./libs/UserManager.o \
+          ./libs/RoomVip.o \
+          ./libs/main.o \
+          ./libs/User.o \
+          ./libs/GameHandler.o \
+          ./libs/InsideNet.o \
+          ./libs/Config.o \
+          ./libs/SiChuanCard_XZ.o \
+          ./libs/SiChuanCard_FourTwo.o \
+          ./libs/SiChuanHandler_FourTwo.o \
+          ./libs/SiChuanCard_DY.o \
+          ./libs/SiChuanHandler_DY.o \
+          ./libs/Desk.o \
+          ./libs/GameHandle_ZhuanZhuan.o \
+          ./libs/SiChuanCard_THR.o \
+          ./libs/Card.o \
+          ./libs/SiChuanHandler_ThrThr.o \
+          ./libs/SiChuanHandler_xl.o \
+          ./libs/SiChuanHandler_three.o \
+          ./libs/Work.o \
+          ./libs/SiChuanHandler.o \
+
+
+
+MODULE_SRC =     \
+          ./Robot.o \
+          ./RobotManager.o \
+          ./Cardsc.o \
+          ./UserManager.o \
+          ./RoomVip.o \
+          ./main.o \
+          ./User.o \
+          ./GameHandler.o \
+          ./InsideNet.o \
+          ./Config.o \
+          ./SiChuanCard_XZ.o \
+          ./SiChuanCard_FourTwo.o \
+          ./SiChuanHandler_FourTwo.o \
+          ./SiChuanCard_DY.o \
+          ./SiChuanHandler_DY.o \
+          ./Desk.o \
+          ./GameHandle_ZhuanZhuan.o \
+          ./SiChuanCard_THR.o \
+          ./Card.o \
+          ./SiChuanHandler_ThrThr.o \
+          ./SiChuanHandler_xl.o \
+          ./SiChuanHandler_three.o \
+          ./Work.o \
+          ./SiChuanHandler.o \

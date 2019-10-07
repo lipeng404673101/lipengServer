@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mhUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mhmsghead.h" />
+    <ClInclude Include="..\..\include\lbasesx2\BaseCommonFunc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\GameDefine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LActive.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LBase.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LBaseSX.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LBuff.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LCharge.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LDBSession.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LIni.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LLog.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LMemoryRecycle.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LMsg.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LMsgL2C.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LMsgS2S.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LNet.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LRedisClient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LRunnable.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LSingleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LSocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LTabFile.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LTime.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LTool.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LUser.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LVideo.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\LVipLog.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\MiniDump.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\RLogHttp.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\SafeResourceLock.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\stdafx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\lbasesx2\targetver.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{44ca2862-7f3d-49f7-9c06-088a79ab3c73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

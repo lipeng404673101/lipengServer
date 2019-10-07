@@ -1,0 +1,18 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/Config.o \
+          ./libs/InsideNet.o \
+          ./libs/main.o \
+          ./libs/HttpRequest.o \
+          ./libs/Work.o \
+
+
+
+MODULE_SRC =     \
+          ./Config.o \
+          ./InsideNet.o \
+          ./main.o \
+          ./HttpRequest.o \
+          ./Work.o \

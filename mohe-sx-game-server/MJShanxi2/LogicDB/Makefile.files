@@ -1,0 +1,26 @@
+
+
+
+MODULE_LIBS =   \
+          ./libs/DbServerManager.o \
+          ./libs/DbServer.o \
+          ./libs/InsideNet.o \
+          ./libs/main.o \
+          ./libs/UserMessageMsg.o \
+          ./libs/Config.o \
+          ./libs/Work.o \
+          ./libs/UserMessage.o \
+          ./libs/ActiveManager.o \
+
+
+
+MODULE_SRC =     \
+          ./DbServerManager.o \
+          ./DbServer.o \
+          ./InsideNet.o \
+          ./main.o \
+          ./UserMessageMsg.o \
+          ./Config.o \
+          ./Work.o \
+          ./UserMessage.o \
+          ./ActiveManager.o \

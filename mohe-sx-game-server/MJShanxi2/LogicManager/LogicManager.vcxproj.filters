@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ActiveManager.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DeskManager.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
+    <ClCompile Include="InsideNet.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mjConfig.cpp" />
+    <ClCompile Include="RuntimeInfoMsg.cpp" />
+    <ClCompile Include="SpecActive.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="UserMessage.cpp" />
+    <ClCompile Include="UserMessageMsg.cpp" />
+    <ClCompile Include="Work.cpp" />
+    <ClCompile Include="club.cpp">
+      <Filter>club</Filter>
+    </ClCompile>
+    <ClCompile Include="clubDesk.cpp">
+      <Filter>club</Filter>
+    </ClCompile>
+    <ClCompile Include="clubManager.cpp">
+      <Filter>club</Filter>
+    </ClCompile>
+    <ClCompile Include="clubUser.cpp">
+      <Filter>club</Filter>
+    </ClCompile>
+    <ClCompile Include="clubPlay.cpp">
+      <Filter>club</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveManager.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DeskManager.h" />
+    <ClInclude Include="HttpRequest.h" />
+    <ClInclude Include="InsideNet.h" />
+    <ClInclude Include="mjConfig.h" />
+    <ClInclude Include="RuntimeInfoMsg.h" />
+    <ClInclude Include="SpecActive.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="UserMessage.h" />
+    <ClInclude Include="UserMessageMsg.h" />
+    <ClInclude Include="Work.h" />
+    <ClInclude Include="club.h">
+      <Filter>club</Filter>
+    </ClInclude>
+    <ClInclude Include="clubDesk.h">
+      <Filter>club</Filter>
+    </ClInclude>
+    <ClInclude Include="clubManager.h">
+      <Filter>club</Filter>
+    </ClInclude>
+    <ClInclude Include="clubUser.h">
+      <Filter>club</Filter>
+    </ClInclude>
+    <ClInclude Include="clubPlay.h">
+      <Filter>club</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="club">
+      <UniqueIdentifier>{6336810c-da3b-4cfc-a9db-119d2e93429e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
